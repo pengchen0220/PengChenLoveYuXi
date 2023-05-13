@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+  }
+  /* Fullpage.js section */
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .section h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+.content {
+  width: 1300;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.sideImage {
+  float: left;
+  width: 600px;
+}
+
+.code {
+  float: left;
+  width: 700px;
+  height: 600px;
+  color: #333;
+  font-family: "Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+  font-size: 8px;
+}
