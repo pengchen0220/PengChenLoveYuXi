@@ -1,4 +1,4 @@
-var startTime = new Date("February 2, 2023 00:00:00").getTime();
+var startTime = new Date("February 2, 2023 22:00:00").getTime();
 var currentTime;
 
 function updateTime() {
@@ -10,7 +10,7 @@ function updateTime() {
   var minutes = Math.floor((totalSeconds - (days * 86400) - (hours * 3600)) / 60);
   var seconds = totalSeconds - (days * 86400) - (hours * 3600) - (minutes * 60);
   var formattedTime = pad(days) + "-" + pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
-  var result = "|   " + totalSeconds + "   | Peng Chen |   Yu Xi   |"
+  var result = "|   " + formattedTime + "   | Peng Chen |   Yu Xi   |"
   document.getElementById("timer").innerHTML = result;
 }
 
